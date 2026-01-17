@@ -122,7 +122,7 @@ if(loadedVideos=== totalVideos -1){
             muted
             id="next-video"
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center "
-            onLoadData={handleVideoLoaded}
+            onCanPlayThrough={handleVideoLoaded}
             />
 
               <video
@@ -131,7 +131,7 @@ if(loadedVideos=== totalVideos -1){
               loop
               muted
               className="absolute left-0 right-0 size-full object-cover object-center"
-              onLoadData={handleVideoLoaded}
+              onCanPlayThrough={handleVideoLoaded}
               />
           </div>
           <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
