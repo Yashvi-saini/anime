@@ -1,16 +1,78 @@
-# React + Vite
+# Anime Website Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance web application built with **React 19** and **Vite**, featuring stunning animations and a premium user experience. This project leverages the power of **GSAP** for complex animations and **Tailwind CSS** for rapid, responsive styling.
 
-Currently, two official plugins are available:
+##  Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is built using the following technologies and libraries:
 
-## React Compiler
+### Core
+- **[React](https://react.dev/)** (v19): A JavaScript library for building user interfaces.
+- **[Vite](https://vitejs.dev/)** (v7): Next Generation Frontend Tooling for fast development and building.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Styling
+- **[Tailwind CSS](https://tailwindcss.com/)** (v4): A utility-first CSS framework for rapidly building modern designs.
+- **[clsx](https://github.com/lukeed/clsx)**: A tiny utility for constructing `className` strings conditionally.
 
-## Expanding the ESLint configuration
+### Animations & UI
+- **[GSAP](https://gsap.com/)** (v3): GreenSock Animation Platform for high-performance animations.
+- **[@gsap/react](https://gsap.com/resources/React/)**: A dedicated hook for using GSAP in React safe and efficiently.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Include popular icons in your React projects easily.
+- **[Lenis](https://lenis.darkroom.engineering/)**: A lightweight and robust smooth scrolling library.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Utilities
+- **[react-use](https://github.com/streamich/react-use)**: A collection of essential React Hooks.
+
+##  Installation & Setup
+
+Follow these steps to get the project running on your local machine:
+
+1.  **Clone the repository** (if applicable) or navigate to the project folder:
+    ```bash
+    cd anime
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**:
+    ```bash
+    npm run build
+    ```
+
+##  Key Features
+
+- **Modern Architecture**: Built on React 19 and Vite for blazing speed.
+- **Bento Grid Layout**: A sophisticated Bento-style grid layout for organizing content with interactive 3D tilt effects.
+- **Advanced GSAP Animations**:
+    - **Dynamic Titling**: Custom GSAP animations for captivating text reveals and title effects.
+    - **Video Frame Transitions**: Seamless animations transforming video frames from small previews to immersive full-screen experiences.
+    - **Scroll-Triggered Effects**: Complex timeline-based animations synchronized with user scrolling.
+- **Smooth Scrolling**: Integrated `lenis` for a premium, buttery-smooth scroll experience.
+- **Responsive Design**: Fully responsive layout using Tailwind CSS v4, ensuring a flawless look on any device.
+
+##  Project Structure
+
+```
+anime/
+├── src/
+│   ├── components/       # Reusable UI components (Hero, Features, etc.)
+│   ├── App.jsx           # Main application component
+│   └── main.jsx          # Entry point
+├── public/               # Static assets
+└── package.json          # Project dependencies and scripts
+```
+
+##  Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Locally preview the production build.
