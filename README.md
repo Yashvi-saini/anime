@@ -56,7 +56,19 @@ Follow these steps to get the project running on your local machine:
     - **Video Frame Transitions**: Seamless animations transforming video frames from small previews to immersive full-screen experiences.
     - **Scroll-Triggered Effects**: Complex timeline-based animations synchronized with user scrolling.
 - **Smooth Scrolling**: Integrated `lenis` for a premium, buttery-smooth scroll experience.
+- **Immersive Audio**: Featured background music and audio effects with a control toggle located at the top right for a complete sensory experience.
 - **Responsive Design**: Fully responsive layout using Tailwind CSS v4, ensuring a flawless look on any device.
+
+## Project Gallery
+
+Here's a glimpse of the application's design and features:
+
+| | |
+|:-------------------------:|:-------------------------:|
+| ![Screenshot 1](public/ss1.png) | ![Screenshot 2](public/ss2.png) |
+| ![Screenshot 3](public/ss3.png) | ![Screenshot 4](public/ss4.png) |
+| ![Screenshot 5](public/ss5.png) | ![Screenshot 6](public/ss6.png) |
+
 
 ##  Project Structure
 
