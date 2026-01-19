@@ -1,10 +1,10 @@
-# Anime Website Project
+# Anime Website
 
-A modern, high-performance web application built with **React 19** and **Vite**, featuring stunning animations and a premium user experience. This project leverages the power of **GSAP** for complex animations and **Tailwind CSS** for rapid, responsive styling.
+A modern, high-performance web application built with **React 19** and **Vite**, featuring stunning animations and a premium user experience. This project leverages the power of **GSAP** for complex animations and **Tailwind CSS** for rapid, responsive styling .
 
 ##  Tech Stack
 
-This project is built using the following technologies and libraries:
+This project is built using the following technologies and libraries :
 
 ### Core
 - **[React](https://react.dev/)** (v19): A JavaScript library for building user interfaces.
